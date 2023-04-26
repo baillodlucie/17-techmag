@@ -3,6 +3,9 @@ body {
   margin: auto;
   background: #ddd;
   font-family: 'Space Grotesk', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 img {
@@ -22,4 +25,42 @@ header {
 
 footer {
   background: #060E17;
+}
+
+.cta {
+  display:flex;
+  flex-direction: column;
+  background:#060E17;
+  padding: 5px;
+  margin: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cta-light {
+  background:#E3F4FF;
+  padding: 10px 2px 5px 2px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+img {
+  max-width: 30%;
+}
+
+.disquette {
+  max-width: 10%;
+}
+
+.section-dark .container {
+  background-color: #E3F4FF;
+}
+
+.logo {
+  max-width: 100%;
+}
+
+.box-title {
+  background-color: #060E17;
+  padding: 10px 30px 10px 30px;
 }
