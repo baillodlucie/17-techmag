@@ -31,16 +31,17 @@ footer {
   display:flex;
   flex-direction: column;
   background:#060E17;
-  padding: 5px;
-  margin: 15px;
+  padding: 10px 20px;
+  margin: 10px 20px;
+  text-decoration: none;
   border-radius: 10px;
   text-align: center;
 }
 
 .cta-light {
   background:#E3F4FF;
-  padding: 10px 2px 5px 2px;
-  margin: 5px;
+  padding: 10px 20px;
+  margin: 10px 20px;
   border-radius: 10px;
 }
 
