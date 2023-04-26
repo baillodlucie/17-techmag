@@ -8,3 +8,8 @@ img {
   display: block;
   max-width: 100%;
 }
+
+header {
+  background: url(../img/bg-header.jpg);
+  padding: 30px;
+}
